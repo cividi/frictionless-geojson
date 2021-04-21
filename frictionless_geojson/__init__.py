@@ -114,10 +114,8 @@ class GeoJsonParser(Parser):
         try:
             source = ijson.items(self.loader.byte_stream, "features.item")
         except Exception:
-            note = (
-                f'''cannot extract GeoJSON tabular data
+            note = f'''cannot extract GeoJSON tabular data
                 from "{self.resource.fullpath}"'''
-            )
             raise FrictionlessException(errors.SourceError(note=note))
         data = self.read_geojson(source)
         inline_dialect = InlineDialect(keys=dialect.keys)
