@@ -14,7 +14,7 @@ An extension to add [GeoJSON](https://geojson.org/geojson-spec.html) read and wr
 #### Release version
 
 ```sh
-pip install frictionless-geojson
+pip install frictionless_geojson
 ```
 
 #### Dev version
