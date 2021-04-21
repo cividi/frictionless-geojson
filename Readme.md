@@ -1,3 +1,8 @@
+[![Build](https://img.shields.io/github/workflow/status/cividi/frictionless-geojson/main/main)](https://github.com/frictionlessdata/frictionless-py/actions)
+[![Coverage](https://img.shields.io/codecov/c/github/cividi/frictionless-geojson/main)](https://codecov.io/gh/cividi/frictionless-geojson)
+[![Registry](https://img.shields.io/pypi/v/frictionless_geojson.svg)](https://pypi.python.org/pypi/frictionless_geojson)
+[![Codebase](https://img.shields.io/badge/github-main-brightgreen)](https://github.com/cividi/frictionless-geojson)
+
 # Frictionless GeoJSON
 
 An extension to add [GeoJSON](https://geojson.org/geojson-spec.html) read and write support in [frictionless-py](https://framework.frictionlessdata.io).
