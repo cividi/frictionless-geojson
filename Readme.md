@@ -7,6 +7,12 @@ An extension to add [GeoJSON](https://geojson.org/geojson-spec.html) read and wr
 ### Load the package
 
 ```sh
+python3 -V # should be > 3.6
+
+# download project
+git clone git@github.com:cividi/frictionless-geojson.git
+cd frictionless-geojson
+
 # Load dynamic dev version
 make dev # or python3 -m pip install -e .
 ```
