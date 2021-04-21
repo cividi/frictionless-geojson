@@ -22,7 +22,7 @@ release:
 	@git log --pretty=format:"%C(yellow)%h%Creset %s%Cgreen%d" --reverse -20
 	@echo "\nReleasing v$(VERSION) in 10 seconds. Press <CTRL+C> to abort\n" && sleep 10
 	git commit -a -m 'v$(VERSION)' && git tag -a v$(VERSION) -m 'v$(VERSION)'
-	# git push --follow-tags
+	git push --follow-tags
 
 test:
 	make lint
